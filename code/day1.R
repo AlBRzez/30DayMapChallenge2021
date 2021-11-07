@@ -28,7 +28,7 @@ map <-
       ggplot() +
       geom_sf(data = cdmx, aes(geometry = geometry),
               fill = "white", color = "gray30") +
-      geom_sf(data = pun, aes(geometry = geometry,
+      geom_sf(data = puntos_centros, aes(geometry = geometry,
                               color = intervencion_en_crisis),
               size = 2) +
       labs(
